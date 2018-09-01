@@ -8,3 +8,5 @@ import threading as thr
 from config import *
 
 #Telegram supper bot
+bot = telepot.Bot(bot_token)
+print(bot.getMe())
